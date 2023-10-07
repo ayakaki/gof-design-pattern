@@ -2,7 +2,7 @@ package template_pattern;
 
 public class CharDisplay extends AbstractDisplay{
 
-    private char ch;
+    private final char ch;
 
     public CharDisplay(char ch){
         this.ch = ch;
