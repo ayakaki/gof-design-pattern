@@ -1,8 +1,10 @@
 import _common.TitleBorder;
 import adapter_pattern.AdapterPatternMain;
+import bridge_pattern.BridgePatternMain;
 
 import static _common.TitleBorder.showTitleBorder;
 import static adapter_pattern.AdapterPatternMain.AdapterPatternMainStatic;
+import static bridge_pattern.BridgePatternMain.bridgePatternMainStatic;
 import static builder_pattern.BuilderPatternMain.BuilderPatternMainStatic;
 import static factory_method_pattern.FactoryMethodPatternMain.FactoryMethodPatternMainStatic;
 import static iterator_pattern.IteratorPatternMain.IteratorPatternMainStatic;
@@ -23,5 +25,7 @@ public class Main {
         prototypePatternMainStatic();
         showTitleBorder("Builderパターン");
         BuilderPatternMainStatic();
+        showTitleBorder("Bridgeパターン");
+        bridgePatternMainStatic();
     }
 }
