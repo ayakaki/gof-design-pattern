@@ -3,28 +3,28 @@ import adapter_pattern.AdapterPatternMain;
 import bridge_pattern.BridgePatternMain;
 
 import static _common.TitleBorder.showTitleBorder;
-import static adapter_pattern.AdapterPatternMain.AdapterPatternMainStatic;
+import static adapter_pattern.AdapterPatternMain.adapterPatternMainStatic;
 import static bridge_pattern.BridgePatternMain.bridgePatternMainStatic;
-import static builder_pattern.BuilderPatternMain.BuilderPatternMainStatic;
-import static factory_method_pattern.FactoryMethodPatternMain.FactoryMethodPatternMainStatic;
-import static iterator_pattern.IteratorPatternMain.IteratorPatternMainStatic;
+import static builder_pattern.BuilderPatternMain.builderPatternMainStatic;
+import static factory_method_pattern.FactoryMethodPatternMain.factoryMethodPatternMainStatic;
+import static iterator_pattern.IteratorPatternMain.iteratorPatternMainStatic;
 import static prototype_pattern.PrototypePatternMain.prototypePatternMainStatic;
-import static template_pattern.TemplatePatternMain.TemplatePatternMainStatic;
+import static template_pattern.TemplatePatternMain.templatePatternMainStatic;
 
 public class Main {
     public static void main(String[] args) {
         showTitleBorder("Iteratorパターン");
-        IteratorPatternMainStatic();
+        iteratorPatternMainStatic();
         showTitleBorder("Adapterパターン");
-        AdapterPatternMainStatic();
+        adapterPatternMainStatic();
         showTitleBorder("Templateパターン");
-        TemplatePatternMainStatic();
+        templatePatternMainStatic();
         showTitleBorder("FactoryMethodパターン");
-        FactoryMethodPatternMainStatic();
+        factoryMethodPatternMainStatic();
         showTitleBorder("Prototypeパターン");
         prototypePatternMainStatic();
         showTitleBorder("Builderパターン");
-        BuilderPatternMainStatic();
+        builderPatternMainStatic();
         showTitleBorder("Bridgeパターン");
         bridgePatternMainStatic();
     }

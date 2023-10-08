@@ -5,7 +5,7 @@ import factory_method_pattern.framework.Product;
 import factory_method_pattern.id_card.IDCardFactory;
 
 public class FactoryMethodPatternMain {
-    public static void FactoryMethodPatternMainStatic(){
+    public static void factoryMethodPatternMainStatic(){
         Factory iDCardFactory =  new IDCardFactory();
         Product p1 = iDCardFactory.create("太郎");
         Product p2 = iDCardFactory.create("花子");

@@ -3,7 +3,7 @@ package iterator_pattern;
 import iterator_pattern.common.Iterator;
 
 public class IteratorPatternMain {
-    public static void IteratorPatternMainStatic() {
+    public static void iteratorPatternMainStatic() {
         ClassRoom classRoom = new ClassRoom();
         classRoom.addStudent(new Student("Taro"));
         classRoom.addStudent(new Student("Hana"));
