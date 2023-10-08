@@ -3,6 +3,7 @@ import adapter_pattern.AdapterPatternMain;
 
 import static _common.TitleBorder.showTitleBorder;
 import static adapter_pattern.AdapterPatternMain.AdapterPatternMainStatic;
+import static builder_pattern.BuilderPatternMain.BuilderPatternMainStatic;
 import static factory_method_pattern.FactoryMethodPatternMain.FactoryMethodPatternMainStatic;
 import static iterator_pattern.IteratorPatternMain.IteratorPatternMainStatic;
 import static prototype_pattern.PrototypePatternMain.prototypePatternMainStatic;
@@ -20,5 +21,7 @@ public class Main {
         FactoryMethodPatternMainStatic();
         showTitleBorder("Prototypeパターン");
         prototypePatternMainStatic();
+        showTitleBorder("Builderパターン");
+        BuilderPatternMainStatic();
     }
 }
